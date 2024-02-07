@@ -1,0 +1,93 @@
+.contact {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(45deg, #6d35d4, #060606);
+}
+
+.formcontainer {
+  background-color: #06060688;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+form {
+  background-color: #fff;
+  padding: 26px 24px;
+  border-radius: 8px;
+  width: 90%;
+  max-width: 500px;
+  height: auto;
+  max-height: 600px;
+  max-width: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  color: #fff;
+  box-shadow: 0px 1px 10px rgb(92, 92, 92);
+}
+
+form p {
+  color: #060606;
+  text-align: center;
+  font-size: 2.2rem;
+  margin-bottom: 25px;
+}
+
+form fieldset {
+  display: flex;
+  flex-direction: column;
+  border: none;
+}
+
+label {
+  border: none;
+  outline: none;
+  font-size: 1.8rem;
+  color: #6d35d4;
+}
+
+input::placeholder, textarea::placeholder {
+  color: rgba(22, 20, 20, 0.425);
+}
+
+input, textarea {
+  color: #333;
+  padding: 12px 7px;
+  background: none;
+  outline: none;
+  border: none;
+  margin: 12px 0;
+}
+
+textarea {
+  border: 1px solid  #6d35d45d;
+  font-family: 'Open sans', sans-serif;
+}
+
+input {
+  height: 60px;
+  border: 1px solid #6d35d45d;
+}
+
+input[type='submit'] {
+  margin-bottom: 0;
+  color: #fff;
+  padding: 15px;
+  border: none;
+  border-radius: 8px;
+  font-size: 1.6rem;
+  cursor: pointer;
+  background-color: #060606;
+  background-color: #6d35d4;
+}
+
+input[type='submit']:hover {
+  background-color: #6139ab;
+  transition: 200ms ease-in-out;
+}

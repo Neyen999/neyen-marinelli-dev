@@ -1,0 +1,76 @@
+.project-details {
+  width: 100%;
+}
+
+.project-details h3 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 2.4rem;
+  margin-bottom: 15px;
+}
+
+.project-details h3 > *{
+  margin-right: 5px;
+}
+
+.project-details h6 {
+  font-size: 1.4rem;
+  margin-bottom: 15px;
+}
+
+.project-details p {
+  font-size: 1.6rem;
+  margin-bottom: 15px;
+  font-family: 'Open sans', sans-serif;
+}
+
+.project-details a {
+  color: rgb(121, 39, 117);
+  font-weight: 600;
+  text-decoration: underline;
+}
+
+article picture {
+  margin: auto;
+  height: 180px;
+  border-radius: 50%;
+  position: relative;
+  width: 180px;
+  overflow: hidden;
+  box-shadow: 1px 1px 4px rgba(51, 51, 51, 0.137);
+}
+
+.platzistore {
+  background: url('https://i.postimg.cc/gJPjFWM5/image-psd-3.png')center center/cover no-repeat;
+}
+
+.platzistore img {
+  width: 400px;
+}
+
+.petgram {
+  background: url('https://i.postimg.cc/Yjc7bthd/image-psd-2.png')center center/cover no-repeat;
+  background-size: 300%;
+}
+
+.shortener {
+  background: url('https://i.postimg.cc/3wmdPqXf/shortly.png')center center/cover no-repeat;
+}
+
+.aerolab {
+  background: url('https://i.postimg.cc/prKQTf6V/aerolab.png')center center/cover no-repeat;
+}
+
+article picture img {
+  position: absolute;
+  left: -25%;
+}
+
+.project-details .project-description {
+  margin-top: 25px;
+}
+
+@media screen and (min-width: 1200px) {
+  .project-details {
+    width: 450px;
+  }
+}

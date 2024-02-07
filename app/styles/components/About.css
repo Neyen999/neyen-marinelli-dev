@@ -1,0 +1,175 @@
+.about {
+  /* height: 100vh; */
+  position: relative;
+}
+
+/* .about .information {
+  padding: 8px 0 0 0;
+  height: 20vh;
+}
+
+.about .information picture {
+  height: 170px;
+  width: 170px;
+}
+
+.about .information svg {
+  font-size: 2.5rem;
+} */
+
+.mydescription {
+  /* height: 100vh; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #0f0f0f;
+}
+
+.mydescription h2 {
+  width: 100%;
+  text-align: center;
+  margin: 20px 0 20px 0;
+  font-size: 2.5em;
+}
+
+/* .mydescription .container {
+  width: 90%;
+} */
+
+.mydescription p {
+  font-size: 1.3rem;
+  font-weight: 200;
+  font-family: 'Open sans', sans-serif;
+}
+
+.education {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.education img {
+  width: 100px;
+  /* height: 45px; */
+}
+
+.education .udemy {
+  margin: 0 auto;
+  grid-column: 1/3;
+}
+
+.education .universidad, .education .platzi {
+  margin: 0 auto;
+}
+
+
+.link {
+  grid-row: 6/8;
+  grid-column: 1/3;
+}
+
+.gh {
+  grid-row: 6/8;
+  grid-column: 3/5;
+}
+
+.socialicons {
+  color: #1b2944;
+}
+
+.mystack {
+  padding-bottom: 10px;
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  font-size: 4rem;
+}
+
+b {
+  text-decoration: underline;
+}
+
+.mydescription_projects {
+  width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+  /* .about .information {
+    height: 40vh;
+  }
+
+  .about .mydescription {
+    height: 60vh;
+  } */
+
+  .about .information picture {
+    width: 251px;
+    height: 251px;
+  }
+
+  .about .information picture img {
+    position: absolute;
+    top: -45%;
+    left: 3%;
+    width: 250px;
+    height: 550px;
+    border-radius: 50%;
+    animation: none;
+  }
+/* 
+  .mystack {
+    margin-top: 30px;
+  } */
+}
+
+@media screen and (min-width: 1200px) {
+
+  .about .information svg {
+    font-size: 4rem;
+  }
+
+  .about .mydescription h2 {
+    font-size: 3rem;
+  }
+
+  .about .mydescription p {
+    font-size: 1.6rem;
+  }
+
+  .ig {
+    grid-row: 3/5;
+    grid-column: 2/3;
+  }
+  
+  .tw {
+    grid-row: 3/5;
+    grid-column: 2/5;
+  }
+  
+  .link {
+    grid-row: 5/6;
+    grid-column: 2/3;
+  }
+  
+  .gh {
+    grid-row: 5/6;
+    grid-column: 3/4;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .about {
+    height: 100vh;
+  }
+}
+
+
+@media screen and (min-width: 1440px) {
+  .about .mydescription p {
+    font-size: 1.8rem;
+  }
+
+  .mystack {
+    font-size: 5rem;
+  }
+}

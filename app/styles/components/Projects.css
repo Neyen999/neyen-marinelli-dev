@@ -1,0 +1,9 @@
+.plans--description {
+  width: 400px;
+  height: 400px;
+  border-radius: 22px;
+}
+
+.plans--description img {
+  width: 400px;
+}

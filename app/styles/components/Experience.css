@@ -1,0 +1,116 @@
+.experience {
+  /* height: 100vh; */
+  position: relative;
+  background-color: #f8f8f8;
+}
+
+.experience_description h2 {
+  width: 100%;
+  text-align: center;
+  margin: 15px 0 20px 0;
+  font-size: 2.5em;
+}
+
+/* .experience_projects ul {} */
+
+.experience_projects h2 {
+  width: 100%;
+  text-align: center;
+  margin: 15px 0 20px 0;
+  font-size: 2.5em;
+}
+
+.experience_description p {
+  font-size: 1.4rem;
+  font-weight: 200;
+  font-family: 'Open sans', sans-serif;
+  color: #0f0f0f;
+  font-weight: 200;
+}
+
+.experience_description {
+  /* height: 30vh; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: start;
+  color: #0f0f0f;
+}
+
+.experience_description a {
+  color: #0f0f0f;
+}
+
+.experience_projects {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.project-box {
+  max-width: 300px;
+  border: 1px solid #ccc;
+  padding: 20px;
+  margin: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s ease-in-out;
+}
+
+.project-box:hover {
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.project-image {
+  max-width: 100%;
+  height: auto;
+}
+
+.project-description {
+  margin-top: 15px;
+}
+
+.read-more {
+  color: #007bff;
+  text-decoration: none;
+  font-weight: bold;
+  display: block;
+  margin-top: 10px;
+}
+
+@media screen and (min-width: 768px) {
+  .myexperience .experience_projects {
+    flex-direction: row;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .experience {
+    height: 100vh;
+  }
+  .myexperience .experience_projects {
+    flex-direction: column;
+    align-items: start;
+  }
+
+  .myexperience .experience_projects .project-box {
+    display: flex;
+    align-items: start;
+    max-width: none;
+    width: 100%;
+    margin: 20px 0px;
+  }
+
+  .myexperience .experience_projects .project-box  .project-image {
+    max-width: 300px;
+  }
+
+  .myexperience .experience_projects .project-box .project-description{
+    padding: 0px 10px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .experience_description p {
+    font-size: 1.8rem;
+  }
+}
