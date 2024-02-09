@@ -4,8 +4,9 @@ import '../styles/components/About.css'
 import { FaJava, FaAws, FaDocker, FaArrowAltCircleDown } from 'react-icons/fa'
 import { SiSpringboot, SiMysql, SiKubernetes, SiSonarqube } from 'react-icons/si'
 import Image from 'next/image'
-import ContractManagement from '../assets/CM.png'
-import AcuerdoSencillo from '../assets/AC.png'
+// import ContractManagement from '../assets/CM.png'
+// import AcuerdoSencillo from '../assets/AC.png'
+import Docker from '../assets/Docker.png'
 
 export const About = () => {
   function calcularEdadCompleta(anioNacimiento: number, mesNacimiento: number): number {
@@ -36,29 +37,32 @@ export const About = () => {
             <img src="https://i.postimg.cc/63JqRR27/udemylogo-freelogovectors-net-400x160-removebg-preview.png" className='udemy' alt="Udemy logo" />
           </div>
           <p>
-            Me gusta mucho hacer deportes, aprender cosas nuevas de todo tipo, y estar en ambientes donde pueda crecer como persona y profesional. Tengo facilidad para aprender cosas nuevas y llevarlas a la practica. Me especializo en <strong>backend</strong>, pero me gustaría aprender más sobre desarrollo <strong>frontend</strong>. Parte de mi stack <b>a continuación:</b>
+            Me gusta mucho hacer deportes, aprender cosas nuevas de todo tipo, y estar en ambientes donde pueda crecer como persona y profesional. Tengo facilidad para aprender cosas nuevas y llevarlas a la practica. Me especializo en <strong>backend</strong>, pero me gustaría aprender más sobre desarrollo <strong>frontend</strong>.
             <br/><br/>
           </p>
-          <div className="mystack">
+          {/* <div className="mystack">
             <FaJava className='babel'/>
             <FaAws className='redux'/>
             <FaDocker className='styled'/>
             <SiSpringboot className='types'/>
             <SiMysql className='webapck'/>
             <SiKubernetes className='react'/>
-          </div>
+          </div> */}
         </div>
         <div className='mydescription_projects'>
           <div className='mydescription_projects_description'>
-              <p>Entre mis proyectos personales de Backend se encuentran <strong>UserManagementSystem</strong> y <strong>RemindMeDolar</strong></p>
+              <p>Entre mis proyectos personales de Backend se encuentra <strong>Student Management System.</strong>
+               {/* y <strong>RemindMeDolar</strong> */}
+               </p>
           </div>
           <div className="experience_projects">
             <div className="project-box">
-                <Image src={ContractManagement} className='project-image' alt='image'/>
+                <Image src={Docker} className='project-image' alt='image'/>
                 <div className="project-description">
-                  <p>Contract Management.</p>
+                  <h3>Student Management System</h3>
+                  <p>Una API simple de alta/baja de usuarios orientado a un sistema escolar, donde podemos crear Superadministradores, Profesores y Estudiantes, crear asignaturas y sub-asignaturas y asignar a profesores y estudiantes a estas mismas.</p>
                 </div>
-                <a href='https://www.linkedin.com/posts/asap-consulting-s%2Ea%2E_asap-wisoft-software-activity-7149036858528743424-aht4?utm_source=share&utm_medium=member_desktop' target='_blank' className="read-more">Ver más</a>
+                <a href='https://github.com/Neyen999/management_system' target='_blank' className="read-more">Ver más</a>
               </div>
             </div>
           </div>

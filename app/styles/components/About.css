@@ -116,6 +116,10 @@ b {
     border-radius: 50%;
     animation: none;
   }
+
+  .about .mydescription_projects .project-box {
+    max-width: 400px;
+  }
 /* 
   .mystack {
     margin-top: 30px;
@@ -123,7 +127,10 @@ b {
 }
 
 @media screen and (min-width: 1200px) {
-
+  .about {
+    height: 100vh;
+  }
+  
   .about .information svg {
     font-size: 4rem;
   }
@@ -133,7 +140,11 @@ b {
   }
 
   .about .mydescription p {
-    font-size: 1.6rem;
+    font-size: 1.4rem;
+  }
+
+  .about .mydescription_projects .experience_projects p {
+    font-size: 1.2rem;
   }
 
   .ig {
@@ -157,19 +168,16 @@ b {
   }
 }
 
-@media screen and (min-width: 768px) {
-  .about {
-    height: 100vh;
-  }
-}
-
 
 @media screen and (min-width: 1440px) {
-  .about .mydescription p {
-    font-size: 1.8rem;
+  .about p {
+    font-size: 1.6rem;
+  }
+  /* .about .mydescription p {
+    font-size: 1.6rem;
   }
 
   .mystack {
     font-size: 5rem;
-  }
+  } */
 }

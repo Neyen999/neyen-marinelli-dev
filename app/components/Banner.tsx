@@ -32,7 +32,7 @@ export const Banner = () => {
         <SiSpringboot className='types'/>
         <SiKubernetes className='webpack'/>
         <SiMysql className='babel'/>
-        <a href="https://drive.google.com/file/d/1W3_nzhNOZ0DqhvUlPO0PVEUX-JTw1eb_/view?usp=sharing" download className="main__banner--cv">
+        <a href="https://drive.google.com/file/d/1khhp3M46PM3EUrxQOb7gbgU0SwZZWkua/view?usp=drive_link" download className="main__banner--cv">
           Descargar CV
           <FcDownload />
         </a>

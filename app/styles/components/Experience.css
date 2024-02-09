@@ -11,8 +11,6 @@
   font-size: 2.5em;
 }
 
-/* .experience_projects ul {} */
-
 .experience_projects h2 {
   width: 100%;
   text-align: center;
@@ -111,6 +109,10 @@
 
 @media screen and (min-width: 1440px) {
   .experience_description p {
-    font-size: 1.8rem;
+    font-size: 1.4rem;
+  }
+
+  .project-description p {
+    font-size: 1.2rem;
   }
 }
